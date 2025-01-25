@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 1.25 rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar-nav{
+    margin-left: 900px;
+}
+.a{
+    color: black;
+}
+
+
+/* main section css */
+
+.main{
+    background: url(images/1.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+.button-container{
+    display: flex;
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(233,20,109);
+    width: 90%;
+}
+.button-container .bt1{
+    height: 50px;
+    width: 150px;
+    background-color: brown;
+    border: 1px solid;
+    outline: none;
+    
+    border-radius: 5px;
+}
+.button-container .bt2{
+    height: 50px;
+    width: 150px;
+    background-color: brown;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    
+}
+.about img{
+    -webkit-box-shadow: 6px 6px 25px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 25px 25px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 25px 25px rgba(0,0,0,0.75);
+
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.progress{
+    background-color:rgb(221, 216, 216);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    width: 0;
+    height: 25px;
+}
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    width: 0;
+    height: 25px;
+}
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    width: 0;
+    height: 25px;
+}
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    width: 0;
+    height: 25px;
+}
+.progress p{
+    color: white;
+    padding: 5px;
+}
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 98%;
+    }
+}
+
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 11%;
+    }
+}
+
+
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 5%;
+    }
+}
+
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 1%;
+    }
+}
+
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.btn2:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+h1{
+    padding-left: 100px;
+}
+.service {
+    margin: 100px 0;
+  }
+  
+  .service-item {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.5s;
+    background-color: var(--theme-white);
+  }
+  
+  .service-item:hover {
+    background-color: var(--theme-orange);
+    color: var(--theme-white);
+  }
+  
+  .service-item:hover i {
+    color: var(--theme-white);
+  }
+  
+  .service-item i {
+    margin: 30px 15px 15px 15px;
+    color: var(--theme-orange);
+    font-size: 48px;
+    transition: 0.5s;
+  }
+  
+  .service-item h5 {
+    margin: 15px 15px;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+  }
+  
+  .service-item p {
+    margin: 15px 15px 30px 15px;
+    font-size: 16px;
+    color: rgba(128, 128, 128, 0.479);
+    transition: 0.5s;
+  }
+  
+  .service-item:hover p {
+    color: var(--theme-white);
+  }
+  .card3 img{
+    width:300px;
+    height: 300px;
+  }
+.card1 img{
+    height: 400px;
+    width: 400x;
+}
+.card2 img{
+    height: 430px;
+    width: 430x;
+}
+.card3 img{
+    height: 400px;
+    width: 1000px;
+}
+h1{
+    padding-left: 100px;
+}
+.form-row{
+    display:flex;
+}
